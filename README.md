@@ -17,7 +17,7 @@
 2. Spring Batch를 통해 Excel 파일을 읽어 데이터베이스에 저장합니다.
 
 #### 테스트 과정에서 발견된 에러
-DataIntegrityViolationException: 글자수 제한이 없어 데이터 무결성 위반 예외가 발생합니다.
+DataIntegrityViolationException: 액셀 파일에는 글자수 제한이 없지만 데이터 베이스 컬럼의 크기보다 넣으려는 데이터의 크기가 더 크기때문에 데이터 무결성 위반 예외가 발생합니다.
 
 ### 에러 처리 방안
 
